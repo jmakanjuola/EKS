@@ -1,0 +1,13 @@
+### Terraform template
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*/eks-eky*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
