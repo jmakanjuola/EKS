@@ -118,4 +118,3 @@ variable "include_global_service_events" {
 #   default = "earnest-eks-cluster-cloudtrail"
 #   type    = "string"
 # }
-

@@ -4,9 +4,10 @@ metadata:
   name: earnest-service
 spec:
   ports:
-  - port: 80
+  - port: 1010
     targetPort: nodejs-port
     protocol: TCP
   selector:
     app: earnest-app
   type: LoadBalancer
+ 
