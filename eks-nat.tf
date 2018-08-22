@@ -41,5 +41,4 @@ resource "aws_route_table_association" "eks-public-subnet-2b" {
 resource "aws_route_table_association" "eks-public-subnet-2c" {
   subnet_id      = "${aws_subnet.eks-public-subnet-2c.id}"
   route_table_id = "${aws_route_table.demo-eks-nat-public-rt.id}"
->>>>>>> 5dc3eb4643346f9b444b0bb50ece321158145b55
 }
