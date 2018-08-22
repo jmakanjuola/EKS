@@ -4,8 +4,8 @@ metadata:
   name: earnest-press-service
 spec:
   ports:
-  - port: 80
-    nodePort: 32001
+  - port: 9022
+    nodePort: 32002
     targetPort: http-port
     protocol: TCP
   selector:

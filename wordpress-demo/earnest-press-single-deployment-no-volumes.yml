@@ -1,13 +1,13 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: earnest-press-deployment
+  name: earnest-press-deployment-2
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: earnest-press
+        app: earnest-press-2
     spec:
       containers:
       - name: wordpress

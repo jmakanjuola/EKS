@@ -5,7 +5,11 @@ metadata:
   namespace: kube-system
 data:
   mapRoles: |
+<<<<<<< HEAD
     - rolearn: arn:aws:iam::747722821363:role/earnest-eks-node
+=======
+    - rolearn: arn:aws:iam::511491726667:role/terraform-eks-demo-node
+>>>>>>> 5dc3eb4643346f9b444b0bb50ece321158145b55
       username: system:node:{{EC2PrivateDNSName}}
       groups:
         - system:bootstrappers
