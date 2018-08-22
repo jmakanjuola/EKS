@@ -6,6 +6,7 @@
 *.tfstate
 *.tfstate.*
 */eks-eky*
+demo
 
 # General
 .DS_Store

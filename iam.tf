@@ -30,7 +30,7 @@ resource "aws_iam_role_policy_attachment" "earnest-eks-cluster-AmazonEKSServiceP
 # If no loadbalancer was ever created in this region, then this following role is necessary
 resource "aws_iam_role_policy" "demo-cluster-service-linked-role" {
   name = "service-linked-role"
-  role = "${aws_iam_role.earnest-eks-cluster.name}"
+  role = "${aws_iam_role.demo-cluster.name}"
 
   policy = <<EOF
 {
@@ -50,5 +50,6 @@ resource "aws_iam_role_policy" "demo-cluster-service-linked-role" {
         }
     ]
 }
+
 EOF
 }
